@@ -70,11 +70,14 @@ body{
     background-color: #000;
 }
 .navbar-brand img{
-   height: 50px 
+   height: 40px 
 }
 .nav-bar .fa-bars{
-    font-size: 35px;
+    font-size: 25px;
     color: #fff
+}
+.nav-item{
+    font-size: 20px;
 }
 .navbar-toggler{
     outline: none !important;
@@ -97,7 +100,7 @@ body{
 .progress-bar
 {
     border-radius: 16px;
-    background: #000 !important;
+    background: #a117f2 !important;
 }
 /*----------------resume-----------------*/
 .resume{
@@ -115,7 +118,7 @@ body{
 }
 .timeline:before{
     content: '';
-    background: #555;
+    background: #a117f2;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -181,7 +184,7 @@ body{
     color: #777;
 }
 .services-box:hover{
-    background: #000;
+    background: #a117f2;
     color: #fff;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
